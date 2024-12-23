@@ -1,0 +1,44 @@
+/* Navigation Bar */
+nav {
+  background-color: #1E3A8A; /* Deep navy blue */
+  color: #FFFFFF; /* White text */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Logo Styling */
+nav img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Navigation Links */
+nav a {
+  text-decoration: none;
+  color: #FFFFFF; /* White links */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Links */
+nav a:hover {
+  color: #FFC107; /* Gold hover color (matches logo accent) */
+  border-bottom: 2px solid #FFC107; /* Add underline with hover color */
+}
+
+/* Active Link Styling */
+nav a.active {
+  color: #FFC107; /* Gold active link color */
+  border-bottom: 2px solid #FFC107; /* Highlight active link */
+}
+
+/* Navigation Links Container */
+nav div {
+  display: flex;
+  gap: 20px; /* Add space between links */
+}

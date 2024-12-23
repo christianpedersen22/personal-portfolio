@@ -1,0 +1,31 @@
+<nav style="display: flex; align-items: center; justify-content: space-between; padding: 10px;">
+  <!-- Logo -->
+  <a routerLink="/home" style="text-decoration: none;">
+    <img 
+      src="assets/icons/CP.png" 
+      alt="CP Logo" 
+      width="50" 
+      height="50" 
+      style="display: inline-block; vertical-align: middle;"
+    />
+  </a>
+
+  <!-- Navigation Links -->
+  <div style="display: flex; gap: 15px;">
+    <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Home
+    </a>
+    <a routerLink="/aboutme" routerLinkActive="active">
+      About Me
+    </a>
+    <a routerLink="/projects" routerLinkActive="active">
+      Projects
+    </a>
+    <a routerLink="/experience" routerLinkActive="active">
+      Experience/Resume
+    </a>
+    <a routerLink="/contact" routerLinkActive="active">
+      Contact
+    </a>
+  </div>
+</nav>
