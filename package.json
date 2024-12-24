@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.0.0",
   "scripts": {
-    "start": "node server.js", 
+    "start": "node server.js",
     "build": "ng build --prod",
     "heroku-postbuild": "npm install && npm run build"
   },
@@ -19,8 +19,8 @@
     "@angular/router": "^18.2.0",
     "@angular/ssr": "^18.2.9",
     "express": "^4.18.2",
-    "marked": "^15.0.4",
-    "ngx-markdown": "^19.0.0",
+    "marked": "^12.0.0",
+    "ngx-markdown": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -39,5 +39,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
