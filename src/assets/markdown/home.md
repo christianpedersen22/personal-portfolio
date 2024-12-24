@@ -1,6 +1,5 @@
 # Christian Pedersen
 
-**Phone**: +1 414-477-7855  
 **Email**: [pederscn@mail.uc.edu](mailto:pederscn@mail.uc.edu)  
 **Location**: Cincinnati, OH  
 **LinkedIn**: [linkedin.com/in/c-pedersen22](http://linkedin.com/in/c-pedersen22)
