@@ -1,12 +1,13 @@
 /* Navigation Bar */
 nav {
-  background-color: #1E3A8A; /* Deep navy blue */
+  background-color: #272E3E; /* Deep navy blue */
   color: #FFFFFF; /* White text */
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
 }
 
 /* Logo Styling */
@@ -20,9 +21,10 @@ nav img {
 nav a {
   text-decoration: none;
   color: #FFFFFF; /* White links */
-  font-weight: bold;
+  font-weight: bold; /* Use bold weight for links */
   font-size: 16px;
   transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth hover effect */
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to links */
 }
 
 /* Hover Effect for Links */

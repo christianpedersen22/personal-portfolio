@@ -1,3 +1,104 @@
 .social-icons img {
     margin-right: 10px; /* or however many px you like */
   }
+
+  /* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font to the body */
+    background-color: #F5F5F5; /* Light gray for a clean background */
+    color: #272E3E; /* Deep navy blue for text */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  /* Markdown Content Styling */
+  markdown {
+    display: block;
+    padding: 20px; /* Add padding to the content */
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 20px auto; /* Center content on the page */
+    background-color: #FFFFFF; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #272E3E; /* Text color */
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  
+  /* Headings */
+  markdown h1, markdown h2, markdown h3, markdown h4, markdown h5, markdown h6 {
+    color: #272E3E; /* Deep navy blue for headings */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Links */
+  markdown a {
+    color: #FFC107; /* Gold for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  markdown a:hover {
+    color: #272E3E; /* Deep navy blue on hover */
+    border-bottom: 2px solid #FFC107; /* Underline on hover */
+  }
+  
+  /* Lists */
+  markdown ul, markdown ol {
+    padding-left: 20px; /* Indent lists */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs */
+  markdown p {
+    margin: 10px 0;
+  }
+  
+  /* Images */
+  markdown img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 8px; /* Add a slight border radius to images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  /* Code Blocks */
+  markdown pre, markdown code {
+    background-color: #272E3E; /* Navy blue background for code */
+    color: #FFFFFF; /* White text for code */
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+  }
+  
+  /* Tables */
+  markdown table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  markdown table th, markdown table td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  markdown table th {
+    background-color: #272E3E; /* Navy blue for headers */
+    color: #FFFFFF; /* White text for headers */
+  }
+  
+  /* Adjust Markdown Containers for Mobile */
+  @media (max-width: 768px) {
+    markdown {
+      padding: 15px;
+      margin: 10px;
+    }
+  }
+  
